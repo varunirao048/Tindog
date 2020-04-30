@@ -1,0 +1,140 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: pink;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat-bold";
+}
+h2{
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  
+}
+p{
+  color:  #8f8f8f
+}
+/* headings */
+.big-heading{
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.8rem;
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+/* titlt-image */
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+ /* z-index:-1; */
+  position: absolute;
+  right: 30%;
+}
+/* features-section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  /* z-index: 1; */
+  position: relative;
+}
+.feature-block{
+  padding: 5%;
+  text-align:center;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius:  100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+/* while viewing the website in tablets or mobiles */
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
+/* call to action section */
+#cta{
+  background-color: pink;
+  text-align: center;
+  color: #fff;
+  padding: 2% 20% 2%;
+}
+#footer{
+  padding: 2% 20% 2%;
+  background-color: #fff;
+  text-align: center;
+}
+.icns{
+  margin: 20px 10px;
+}
